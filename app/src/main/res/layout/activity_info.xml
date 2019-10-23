@@ -41,6 +41,8 @@
         android:id="@+id/text_view_phone"
         android:layout_width="0dp"
         android:layout_height="30dp"
+        android:clickable="true"
+        android:onClick="createPhoneIntent"
         android:layout_marginLeft="0dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="16dp"
